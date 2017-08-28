@@ -1,0 +1,16 @@
+PODS:
+  - HapticShakeDemo (0.1.0)
+
+DEPENDENCIES:
+  - HapticShakeDemo (from `../`)
+
+EXTERNAL SOURCES:
+  HapticShakeDemo:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HapticShakeDemo: a2da1c379d36779e743e7dbdddab5f9285985998
+
+PODFILE CHECKSUM: b4be56b3c2dc6c8d495a87d53cb3e5df3b29b5ad
+
+COCOAPODS: 1.2.1

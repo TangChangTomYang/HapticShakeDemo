@@ -1,0 +1,22 @@
+{
+  "name": "HapticShakeDemo",
+  "version": "0.1.0",
+  "summary": "A short description of HapticShakeDemo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/TangchangTomYang/HapticShakeDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "TangchangTomYang": "690852195@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/TangchangTomYang/HapticShakeDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HapticShakeDemo/Classes/**/*"
+}

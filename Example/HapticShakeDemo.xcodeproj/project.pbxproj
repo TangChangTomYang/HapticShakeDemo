@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		2EDFBF330903BFD0D11AD8A5 /* Pods-HapticShakeDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HapticShakeDemo_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HapticShakeDemo_Tests/Pods-HapticShakeDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4577A1A80BFB04084960AF7F /* Pods-HapticShakeDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HapticShakeDemo_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HapticShakeDemo_Tests/Pods-HapticShakeDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		486F17D7648ED5590E036314 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		486F17D7648ED5590E036314 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HapticShakeDemo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HapticShakeDemo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,10 +62,10 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7367E6B6753D2F377A1C516E /* Pods_HapticShakeDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HapticShakeDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		89C8E805FD4D813333414F0C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		89C8E805FD4D813333414F0C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9AD96A6D2253B0207CB7EE6F /* Pods-HapticShakeDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HapticShakeDemo_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HapticShakeDemo_Example/Pods-HapticShakeDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		ADD329EA59985CB8DC1A0C14 /* Pods-HapticShakeDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HapticShakeDemo_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HapticShakeDemo_Example/Pods-HapticShakeDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CA7851C213D52BA8504E7B79 /* HapticShakeDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HapticShakeDemo.podspec; path = ../HapticShakeDemo.podspec; sourceTree = "<group>"; };
+		CA7851C213D52BA8504E7B79 /* HapticShakeDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HapticShakeDemo.podspec; path = ../HapticShakeDemo.podspec; sourceTree = "<group>"; };
 		F9F754848716A6988A6ECB07 /* Pods_HapticShakeDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HapticShakeDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -250,6 +250,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = TangchangTomYang;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = YXHT4Y9V5X;
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -524,12 +528,15 @@
 			baseConfigurationReference = 9AD96A6D2253B0207CB7EE6F /* Pods-HapticShakeDemo_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YXHT4Y9V5X;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HapticShakeDemo/HapticShakeDemo-Prefix.pch";
 				INFOPLIST_FILE = "HapticShakeDemo/HapticShakeDemo-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = co.Lumenari.CanadaELA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d0458b22-15df-4942-b472-515647ce1877";
+				PROVISIONING_PROFILE_SPECIFIER = ELADev_0825;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -539,12 +546,16 @@
 			baseConfigurationReference = ADD329EA59985CB8DC1A0C14 /* Pods-HapticShakeDemo_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = YXHT4Y9V5X;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HapticShakeDemo/HapticShakeDemo-Prefix.pch";
 				INFOPLIST_FILE = "HapticShakeDemo/HapticShakeDemo-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = co.Lumenari.CanadaELA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "360562b7-2bc2-4bd3-a815-02fd4acf9b7e";
+				PROVISIONING_PROFILE_SPECIFIER = ELAHoc_0825;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

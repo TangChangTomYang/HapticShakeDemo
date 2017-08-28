@@ -1,0 +1,6 @@
+framework module HapticShakeDemo {
+  umbrella header "HapticShakeDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
