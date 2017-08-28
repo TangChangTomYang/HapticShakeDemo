@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HapticShakeDemo_Example' do
+  pod 'HapticShakeDemo', :path => '../'
+
+  target 'HapticShakeDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
